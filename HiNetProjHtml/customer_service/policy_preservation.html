@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <title>保單理賠</title>
+        
+        <!-- plugins style-->
+        <link rel="stylesheet" href="../resources/plugins/uikit/2.16.2/css/uikit.min.css" />
+        
+        <!-- custom style -->
+        <link rel="stylesheet" href="../resources/styles/uikit.ext.css" />
+        <link rel="stylesheet" href="../resources/styles/global.css" />
+        <link rel="stylesheet" href="../resources/styles/header-footer.css" />
+        
+        <!-- plugins script -->
+        <script src="../resources/plugins/jquery/jquery-1.11.0.min.js"></script>
+        <script src="../resources/plugins/uikit/2.16.2/js/uikit.min.js"></script>
+        <script src="../resources/plugins/uikit/2.16.2/js/components/grid.min.js"></script>
+        
+        
+        <!-- custom script -->
+        <script type="text/javascript">
+        $(function(){
+            $("#header-container").load("../header.html");
+            $("#footer-container").load("../footer.html");
+        });
+        </script>
+		
+		<style>
+			body{
+				font-family: "Arial Normal","Arial";
+			}
+			.font_size_18 { 
+				font-size: 18px;
+			}
+			.font_size_25{ 
+				font-size: 25px;
+			}
+			.font_bold{
+				font-weight: bold;
+			}
+			.div_border{
+				border:1px solid #797979;
+			}
+			.height_80{
+				height: 80px;
+			}
+			.div_margin{
+				margin-top:25%;
+			}
+			.div_process_title{
+				float:left;width:14%;text-align:center;
+			}
+			.div_process_title{
+				float:left;width:14%;text-align:center;
+			}
+			.div_process_arrit{
+				float:left;width:10%;text-align:center;
+			}
+			#item_div > div > div{
+				margin-top:15px;
+			}
+			.margin_left_10 {
+				margin-left:10px;
+			}
+		</style>
+	</head>
+    <body class="body-background">
+		<!-- header container -->
+		<div id="header-container"></div>
+	
+    	<!-- 面包屑 -->
+		<div class="uk-container uk-container-center uk-margin-top">
+			<div class="uk-panel">
+				<ul class="uk-breadcrumb font_size_18">
+					<li><a href="/HiNetProjHtml/index.html">首頁</a></li>
+					<li><a href="/HiNetProjHtml/customer_service/service.html">客戶服務</a></li>
+					<li class="uk-active"><span>保單保全</span></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 保單保全入口 -->
+		<div class="uk-container uk-container-center uk-margin-top">
+			<div class="margin_left_10 uk-grid uk-grid-small div_border" style="margin-left:1px;">
+				<div class="uk-width-1-1" style="height:10px;"></div>
+				<div class="uk-width-3-4"></div>
+				<div class="uk-width-1-4">
+					<!--<a href="preservation_detail.html" target="_blank">-->
+					<a href="/HiNetProjHtml/customer_service/preservation_detail.html" target="_blank">
+						<img src="../resources/images/all_button.png" style="cursor: pointer;">
+					</a>
+				</div>
+				<div class="uk-width-1-1" style="height:10px;"></div>
+			</div>
+		</div>
+		<!-- 险种理赔案例 -->
+		<div class="uk-container uk-container-center uk-margin-top">
+			<div class="uk-grid uk-grid-small div_border" style="margin-left:1px;">
+				<div class="uk-width-1-1 uk-margin-top">
+					<span class="font_size_25">
+						保全變更流程
+					</span>
+				</div>
+				<div class="uk-margin-top uk-margin-bottom div_process_title">
+					<img src="../resources/images/u149.png">
+					<p>準備文件</p>
+				</div>
+				<div class="uk-margin-top uk-margin-bottom  div_process_arrit">
+					<img class="div_margin" src="../resources/images/u167.png">
+				</div>
+				
+				<div class="uk-margin-top uk-margin-bottom div_process_title">
+					<img src="../resources/images/u149.png">
+					<p>申請管道</p>
+				</div>
+				<div class="uk-margin-top uk-margin-bottom div_process_arrit">
+					<img class="div_margin" src="../resources/images/u167.png">
+				</div>
+				
+				<div class="uk-margin-top uk-margin-bottom div_process_title">
+					<img src="../resources/images/u149.png" >
+					<p>遞送申請</p>
+				</div>
+				<div class="uk-margin-top uk-margin-bottom div_process_arrit">
+					<img class="div_margin" src="../resources/images/u167.png">
+				</div>
+				
+				<div class="uk-margin-top uk-margin-bottom div_process_title">
+					<img src="../resources/images/u149.png">
+					<p>手續完成</p>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 理赔流程  -->
+		<div id="item_div" class="uk-container uk-container-center uk-margin-top">
+			<div class="uk-grid uk-grid-small div_border" style="margin-left:1px;">
+				<div class="uk-width-1-1 uk-margin-top">
+					<span class="font_size_25">
+						保全變更項目
+					</span>
+				</div>
+				<div class="uk-width-1-1">
+					<img src="../resources/images/u139.png">&nbsp;&nbsp;個人資料變更
+				</div>
+				<div class="uk-width-medium-1-10 uk-width-small-1-1">
+					<img src="../resources/images/u143.png">&nbsp;&nbsp;姓名變更
+				</div>
+				<div class="uk-width-medium-1-10 uk-width-small-1-1">
+					<img src="../resources/images/u143.png">&nbsp;&nbsp;通訊地址變更
+				</div>
+				<div class="uk-width-medium-1-10 uk-width-small-1-1">
+					<img src="../resources/images/u143.png">&nbsp;&nbsp;要保人變更
+				</div>
+				<div class="uk-width-medium-1-10 uk-width-small-1-1">
+					<img src="../resources/images/u143.png">&nbsp;&nbsp;受益人變更
+				</div>
+				<div class="uk-width-medium-2-10 uk-width-small-1-1">
+					<img src="../resources/images/u143.png">&nbsp;&nbsp;被保險人職業類別變更
+				</div>
+				<div class="uk-width-4-10 uk-hidden-small"></div>
+				
+				<div class="uk-width-1-1">
+					<img src="../resources/images/u139.png">&nbsp;&nbsp;保單內容變更
+				</div>
+				<div class="uk-width-medium-1-10 uk-width-small-1-1">
+					<img src="../resources/images/u143.png">&nbsp;&nbsp;繳別變更
+				</div>
+				<div class="uk-width-medium-1-10 uk-width-small-1-1">
+					<img src="../resources/images/u143.png">&nbsp;&nbsp;增購保額
+				</div>
+				<div class="uk-width-medium-1-10 uk-width-small-1-1">
+					<img src="../resources/images/u143.png">&nbsp;&nbsp;減小保額
+				</div>
+				<div class="uk-width-medium-1-10 uk-width-small-1-1">
+					<img src="../resources/images/u143.png">&nbsp;&nbsp;縮小附約
+				</div>
+				<div class="uk-width-medium-1-10 uk-width-small-1-1">
+					<img src="../resources/images/u143.png">&nbsp;&nbsp;增購附約
+				</div>
+				<div class="uk-width-medium-2-10 uk-width-small-1-1">
+					<img src="../resources/images/u143.png">&nbsp;&nbsp;縮小、終止附約
+				</div>
+				<div class="uk-width-medium-1-10 uk-width-small-1-1">
+					<img src="../resources/images/u143.png">&nbsp;&nbsp;契約復效
+				</div>
+				<div class="uk-width-2-10 uk-hidden-small"></div>
+				
+				
+				<div class="uk-width-1-1">
+					<img src="../resources/images/u139.png">&nbsp;&nbsp;投資型保單變更
+				</div>
+				<div class="uk-width-medium-1-10 uk-width-small-1-1">
+					<img src="../resources/images/u143.png">&nbsp;&nbsp;繳別變更
+				</div>
+				<div class="uk-width-medium-1-10 uk-width-small-1-1">
+					<img src="../resources/images/u143.png">&nbsp;&nbsp;增加/縮小保額
+				</div>
+				<div class="uk-width-medium-2-10 uk-width-small-1-1">
+					<img src="../resources/images/u143.png">&nbsp;&nbsp;資產比例重新配置變更
+				</div>
+				<div class="uk-width-medium-1-10 uk-width-small-1-1" style="margin-bottom:30px;">
+					<img src="../resources/images/u143.png">&nbsp;&nbsp;繳費金額變更
+				</div>
+				<div class="uk-width-5-10 uk-hidden-small"></div>
+				
+			</div>
+		</div>
+		
+		<!-- 理賠資料下載 -->
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid uk-grid-small height_80 div_border" style="margin-left:1px;">
+				<div class="uk-width-1-1 uk-vertical-align uk-vertical-align-middle">
+					<span class="font_size_18 font_bold">
+						常用單證
+					</span>
+					&nbsp;&nbsp;&nbsp;
+					<a href="javascript:void(0);">
+						保全變更申請書
+					</a>
+				</div>
+			</div>
+		</div>
+		
+		<!-- footer container-->
+		<div id="footer-container"></div>
+    </body>
+	</body>
+</html>

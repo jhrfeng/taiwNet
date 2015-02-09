@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta content="width=device-width, initial-scale=1" name="viewport">
+		<title>保單支付</title>
+
+		<!-- plugins style-->
+		<link rel="stylesheet" href="../resources/plugins/uikit/2.16.2/css/uikit.min.css" />
+		<link rel="stylesheet" href="../resources/plugins/uikit/2.16.2/css/components/datepicker.css" />
+
+		<!-- custom style -->
+		<link rel="stylesheet" href="../resources/styles/uikit.ext.css" />
+		<link rel="stylesheet" href="../resources/styles/global.css" />
+		<link rel="stylesheet" href="../resources/styles/header-footer.css" />
+
+
+
+		<!-- plugins script -->
+		<script src="../resources/plugins/jquery/jquery-1.11.0.min.js"></script>
+		<script src="../resources/plugins/uikit/2.16.2/js/uikit.min.js"></script>
+		<script src="../resources/plugins/uikit/2.16.2/js/components/grid.min.js"></script>
+		<script src="../resources/plugins/uikit/2.16.2/js/components/datepicker.js"></script>
+
+		<!-- custom script -->
+		<script type="text/javascript">
+			$(function() {
+				$("#header-container").load("../header.html");
+				$("#footer-container").load("../footer.html");
+
+			});
+		</script>
+	</head>
+
+	<body>
+		<!-- header container -->
+		<div id="header-container"></div>
+		<!--导航头-->
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid">
+				<div class="uk-width-1-1 uk-margin-top">
+					<div class="uk-panel uk-panel-title">
+
+						<ul class="uk-breadcrumb">
+							<li>
+								<img src="../resources/images/u888.png" /><a href="">首頁</a>
+							</li>
+							<li><a href="">產品中心</a>
+							</li>
+							<li><a href="">定期壽險</a>
+							</li>
+							<li class="uk-active"><span>一路守護定期壽險</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--流程-->
+		<div class="uk-container uk-container-center">
+			<div class="uk-grid uk-margin-top">
+				<div class="uk-width-large-1-5 uk-width-small-1">
+					<div class="uk-panel">步驟一</div>
+				</div>
+				<div class="uk-width-1-5">
+					<div class="uk-panel">步骤二</div>
+				</div>
+				<div class="uk-width-large-1-5 uk-width-small-1">
+					<div class="uk-panel">步骤三</div>
+				</div>
+				<div class="uk-width-large-1-5 uk-width-small-1">
+					<div class="uk-panel">步骤四</div>
+				</div>
+				<div class="uk-width-large-1-5 uk-width-small-1">
+					<div class="uk-panel">步骤五</div>
+				</div>
+			</div>
+
+		</div>
+		<!--主要内容-->
+		<div class="uk-container uk-container-center">
+
+			<div class="uk-width-1-1 uk-margin-top" style="border: 1px solid black;">
+				<div class="uk-grid">
+					<div class="uk-h3 uk-margin-top uk-width-large-1-2 uk-width-small-1">
+						<div class="uk-panel uk-margin-left"> 訂單編號：XXXXXXXXXXXXXXXXXXXXX</div>
+					</div>
+					<div class="uk-width-large-1-2 uk-width-small-1">
+						<div class="uk-panel">
+							<div class="uk-float-right uk-margin-large-right uk-margin-top">
+
+								共 <font class="uk-text-bold uk-h4"> NTS：290</font>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="uk-grid " style="margin-top: 10px;">
+					<div class="uk-width-large-2-10 uk-width-medium-1-2 uk-width-small-1">
+						<div class="uk-panel uk-float-right">
+							一路守護定期壽險
+						</div>
+					</div>
+					<div class="uk-width-large-2-10 uk-width-medium-1-2 uk-width-small-1">
+						<div class="uk-panel uk-float-right">
+							NT$:290
+						</div>
+					</div>
+					<div class="uk-width-large-3-10 uk-width-medium-1-2 uk-width-small-1">
+						<div class="uk-panel uk-float-right">
+							<input type="checkbox" name="" id="" value="" /> 使用積分紅利抵扣（現有可用積分紅利9999）
+
+						</div>
+					</div>
+
+					<div class="uk-width-large-3-10 uk-width-medium-1-2 uk-width-small-1">
+						<div class="uk-panel uk-margin-left">
+							<input type="text" name="" id="" value="" /> 至多可使用290積分
+						</div>
+					</div>
+
+				</div>
+				<div class="uk-grid">
+					<div class="uk-width-large-1-1 ">
+						<div class="uk-panel uk-h3 uk-align-right uk-margin-large-right uk-margin-bottom">
+							實際支付 <font style="color: red;">NTS：290</font>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="uk-width-1-1 uk-margin-top" style="border: 1px solid black;">
+				<div class="uk-grid">
+					<div class="uk-h3 uk-margin-top uk-width-large-1-4 uk-width-small-1">
+						<div class="uk-panel uk-margin-left">
+
+							付款方式：
+						</div>
+					</div>
+					<div class="uk-margin-top uk-width-large-1-4 uk-width-small-1">
+						<div class="uk-panel uk-margin-left uk-margin-bottom">
+							<input type="radio" name="paymenr" id="paymenr" value="" />信用卡
+						</div>
+					</div>
+
+					<div class="uk-margin-top uk-width-large-1-4 uk-width-small-1">
+						<div class="uk-panel uk-margin-left uk-margin-bottom">
+							<input type="radio" name="paymenr" id="paymenr" value="" />webATM
+						</div>
+					</div>
+
+					<div class="uk-margin-top uk-width-large-1-4 uk-width-small-1">
+						<div class="uk-panel uk-margin-left uk-margin-bottom">
+							<input type="radio" name="paymenr" id="paymenr" value="" />憑證支付
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="uk-width-1-1 uk-margin-top" style="border: 1px solid black;">
+				<div class="uk-grid">
+					<div class="uk-panel uk-margin-large-top uk-width-1-1 uk-margin-left">
+						<form action="" method="post">
+
+
+							<table class="uk-margin-large-left uk-margin-large-top">
+								<tr class="uk-margin-large-top">
+									<td class="uk-width-1-3 uk-h5">信用卡號</td>
+									<td>
+										<input type="text" name="" id="" value="" />
+									</td>
+								</tr>
+								<tr>
+									<td class="uk-width-1-3 uk-h5 ">
+
+										有效期:
+									</td>
+									<td>
+										<input type="" data-uk-datepicker="{format:'YYYY-MM-DD'}" />
+									</td>
+								</tr>
+								<tr>
+									<td class="uk-width-1-3 uk-h5 ">
+
+										背面末三位
+									</td>
+									<td>
+										<input type="text" />
+									</td>
+							</table>
+							<input type="submit" value="下一步" class="uk-align-right" style="margin-right: 20px;" />
+						</form>
+					</div>
+				</div>
+			</div>
+			</div>
+             <!-- footer container-->
+		<div id="footer-container"></div>
+	</body>
+
+</html>

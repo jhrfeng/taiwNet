@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <title>保單理賠</title>
+        
+        <!-- plugins style-->
+        <link rel="stylesheet" href="../resources/plugins/uikit/2.16.2/css/uikit.min.css" />
+        
+        <!-- custom style -->
+        <link rel="stylesheet" href="../resources/styles/uikit.ext.css" />
+        <link rel="stylesheet" href="../resources/styles/global.css" />
+        <link rel="stylesheet" href="../resources/styles/header-footer.css" />
+        
+        <!-- plugins script -->
+        <script src="../resources/plugins/jquery/jquery-1.11.0.min.js"></script>
+        <script src="../resources/plugins/uikit/2.16.2/js/uikit.min.js"></script>
+        <script src="../resources/plugins/uikit/2.16.2/js/components/grid.min.js"></script>
+        
+        
+        <!-- custom script -->
+        <script type="text/javascript">
+        $(function(){
+            $("#header-container").load("../header.html");
+            $("#footer-container").load("../footer.html");
+        });
+        </script>
+		
+		<style>
+			body{
+				font-family: "Arial Normal","Arial";
+			}
+			.font_size_18 { 
+				font-size: 18px;
+			}
+			.font_size_25{ 
+				font-size: 25px;
+			}
+			.font_bold{
+				font-weight: bold;
+			}
+			.div_border{
+				border:1px solid #797979;
+			}
+			.height_80{
+				height: 80px;
+			}
+			.div_margin{
+				margin-top:25%;
+			}
+			.div_process_title{
+				float:left;width:14%;text-align:center;
+			}
+			.div_process_title{
+				float:left;width:14%;text-align:center;
+			}
+			.div_process_arrit{
+				float:left;width:10%;text-align:center;
+			}
+			#item_div > div > div{
+				margin-top:15px;
+			}
+		</style>
+	</head>
+    <body class="body-background">
+		<!-- header container -->
+		<div id="header-container"></div>
+	
+    	<!-- 面包屑 -->
+		<div class="uk-container uk-container-center uk-margin-top">
+			<div class="uk-panel">
+				<ul class="uk-breadcrumb font_size_18">
+					<li><a href="/HiNetProjHtml/index.html">首頁</a></li>
+					<li><a href="/HiNetProjHtml/customer_service/service.html">客戶服務</a></li>
+					<li class="uk-active"><span>保單保全</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- 保全流程相關圖 -->
+		<div class="uk-container uk-container-center uk-margin-top">
+			<div class="uk-grid uk-grid-small div_border" style="margin-left:1px;">
+				<div class="uk-width-1-1 uk-vertical-align uk-vertical-align-middle uk-text-center" style="height:200px;">
+					保全流程相關圖
+				</div>
+			</div>
+		</div>
+		<!-- 保全内容 -->
+		<!--<form action="online_preserve.html">-->
+		<form action="/HiNetProjHtml/customer_service/online_preserve.html">
+			<div class="uk-container uk-container-center uk-margin-top">
+				<div class="uk-grid uk-grid-small div_border" style="margin-left:1px;">
+					<div class="uk-width-1-1 uk-margin-top">
+						<p style="margin-left:5%;"><img src="../resources/images/u139.png">&nbsp;&nbsp;通訊地址變更</p>
+						<p style="margin-left:6%;">聯絡地址變更流程說明：以下為您變更的手續流程</p>
+						<p style="margin-left:6%;">客戶投保以後，為保障不致中斷，若遇地址異動，須以書面通知本公司更新地址及電話號碼資料，才不會遺漏我們所欲傳達給您的各項訊息。</p>
+						
+						<p style="margin-left:13%;">STEP1 準備文件</p>
+						<p style="margin-left:17%;">契約內容變更申請書</p>
+						<p style="margin-left:13%;">STEP2 申請管道</p>
+						<p style="margin-left:17%;"><img src="../resources/images/u148.png">聯繫您專屬的服務人員前往服務</p>
+						<p style="margin-left:17%;"><img src="../resources/images/u150.png">您也可攜帶上述應備文件，親赴本公司各服務中心櫃檯申請</p>
+						<p style="margin-left:17%;">網路線上變更</p>
+						<p style="margin-left:17%;">洽詢0800-000-123客服中心</p>
+						<p style="margin-left:17%;">郵寄</p>
+						<p style="margin-left:13%;">STEP3 遞送申請</p>
+						<p style="margin-left:17%;">申請書需要保人簽名</p>
+						<p style="margin-left:17%;">有效契約可隨時提出申請</p>
+						<p style="margin-left:13%;">STEP4 手續完成</p>
+						<p style="margin-left:17%;">如有任何疑問，可洽詢本公司服務人員或撥打客服專線0800-000-123。</p>
+					</div>
+				
+					<div class="uk-width-1-1 uk-text-center uk-margin-large-top">
+						<button class="uk-button" style="width:100px;">立即申请</button>
+						<br><br><br>
+					</div>
+				</div>
+			</div>
+		</form>
+		
+		
+		<!-- footer container-->
+		<div id="footer-container"></div>
+    </body>
+	</body>
+</html>
